@@ -15,20 +15,20 @@ export class DataService {
 
 
 saveCustomer(customer){
-	return this.http.post("http://localhost:8080/api/savecustomer",customer);//.map(res => { return res;});
+	return this.http.post("http://localhost:8085/customermanagement-0.0.1/api/savecustomer",customer);//.map(res => { return res;});
 }
 
 getData(){
-	return this.http.get("http://localhost:8080/api/customers");
+	return this.http.get("http://localhost:8085/customermanagement-0.0.1/api/customers");
 
 }
 
 deleteCustomerById(id){
-	 return this.http.delete("http://localhost:8080/api/delete/"+id);
+	 return this.http.delete("http://localhost:8085/customermanagement-0.0.1/api/delete/"+id);
 }
 
 getDataById(id){
-	return this.http.get("http://localhost:8080/api/customer/"+id);
+	return this.http.get("http://localhost:8085/customermanagement-0.0.1/api/customer/"+id);
 }
 
 }
