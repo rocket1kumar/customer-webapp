@@ -10,8 +10,7 @@ import { HttpClient } from '@angular/common/http';
 export class DataService {
 
   constructor( private http: HttpClient) { }
-	
-t sending mail to unregistered user noreply@
+
 
 
 saveCustomer(customer){
@@ -34,5 +33,5 @@ getDataById(id){
 
 }
 
-//end 
+
 
