@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-//import {Http, Response} from "@angular/http";
+import {Http, Response} from "@angular/http";
 import 'rxjs/Rx';
 import 'rxjs/add/operator/map';
 import { Customer } from './customer.model';
@@ -11,7 +11,7 @@ export class DataService {
 
   constructor( private http: HttpClient) { }
 	
-
+t sending mail to unregistered user noreply@
 
 
 saveCustomer(customer){
