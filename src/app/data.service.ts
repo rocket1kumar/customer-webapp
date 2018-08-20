@@ -25,7 +25,8 @@ getData(){
 
 deleteCustomerById(id){
 	 return this.http.delete("http://192.168.10.159:8085/customermanagement-0.0.1/api/delete/"+id);
-}
+}scp -r -o StrictHostKeyChecking=no /var/lib/jenkins/workspace/customer-nginx/dist madhuwanti@192.168.10.160:/var/www/nginx
+
 
 getDataById(id){
 	return this.http.get("http://192.168.10.159:8085/customermanagement-0.0.1/api/customer/"+id);
